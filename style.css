@@ -1,0 +1,268 @@
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+/* unvisited link grey */
+#top-menu a:link {
+	color: white;
+}
+/* visited link grey */
+#top-menu a:visited {
+	color: white;
+}
+/* mouse over link blue */
+#top-menu a:hover {
+	color: red;
+}
+/* selected link blue */
+#top-menu a:active {
+	color: red;
+}
+.activePage a {
+	font-weight: bold;
+	color: red !important
+}
+
+
+footer{
+  position: absolute; 
+  bottom: 2px;	
+  color: white;
+  width: 100%; 
+  
+}
+footer a{
+  color: #bfffff;
+}
+footer a:hover{
+  color: white;
+}
+
+.footer-bottom{
+  background: #3d6277;
+  padding: 2em;
+}
+.footer-top{
+  background: #2d4958;  
+}
+.footer-middle{
+  background: #3d6277;
+  padding-top: 2em;
+  color: white;
+}
+
+.bottoneMenu 
+{
+	display:block; 
+	width:110px; 
+	background-color:#eee; 
+	margin:0.2em; 
+	padding:0.2em; 
+	border:1px solid #7D7D7D;; border-radius: 5px;  
+	margin:auto; box-shadow: 3px 3px 3px gray, -3px -3px 3px #AFC8F6;
+}
+
+@media print {
+    navbar { display:none; }
+	footer { display:none; }
+}
+
+div.ruota {
+    width: 500px;
+    height: 250px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+.adminHead	{ font-family : Arial; font-weight: bold; color: white; background: #0099ff; text-align:center }
+.adminRow	{ font-family : Arial; font-weight: normal; color: black; background: white; text-align:center }
+.adminFoot	{ font-family : Arial; font-weight: normal; color: black; background: #DDDDDD; text-align:center}
+
+
+
+/*============= social ===========*/
+.icon-circle .fa{
+    font-size           : 12px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 40px;
+    width               : 40px;
+    border-radius       : 50%;
+    border              :2px solid #e84700;
+    line-height         : 40px;
+	padding-left 		:10px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 25px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+.icon-circle .fa{
+    font-size           : 12px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 20px;
+    width               : 20px;
+    border-radius       : 50%;
+    border              :2px solid #e84700;
+    line-height         : 20px;
+	padding-left 		:5px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 10px;
+}   
+}
+
+
+.ifacebook .fa{
+	background-color    :#3B5998;    
+    color               :#fff;
+    border              :2px solid #fff;
+}
+
+.ifacebook .fa:hover{
+    
+    background-color        : #3B5998;    
+    color                   : #fff;
+    border                  : 1px solid #fff;
+
+}
+
+.iLinkedin .fa{
+	background-color    :#007bb7;    
+    color               :#fff;
+    border              :2px solid #fff;
+}
+
+.iLinkedin .fa:hover{
+    
+    background-color        :#007bb7;    
+    color                   :#fff;
+    border                  :1px solid #fff;
+
+}
+  
+/* --------- fine social ----------- */

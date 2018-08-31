@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="BPMN">
+    <meta name="author" content="Dorio Leonardo">
+
+    <title>BPMN</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<!-- <link href="../bootstrap/css/font-awesome.min.css" rel="stylesheet">     -->
+	<!-- Custom styles -->
+	<script src="../bootstrap/jquery/jquery.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap/css/small-business.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+
+<script> 
+function moreInfo(url) { 
+	newin = window.open(url,'titolo','scrollbars=yes,resizable=yes, width=800,height=600,status=no,location=no,toolbar=no,top=10,left=20');
+} 
+$('.carousel').carousel();
+</script>
+
+	
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" > -->
+    <nav class="navbar navbar-inverse bg-primary navbar-expand-lg fixed-top">  
+	  <div class="container">
+        <a class="navbar-brand" href="https://www.uniupo.it" target="_blank"><img src="img/UPO.png" width="90" height="45" border="0" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+		<div id="top-menu">
+		  <ul class="nav menu nav-pills topmenu ml-auto">
+					<li class="nav-item activePage">
+					  <a class="nav-link" href="#">Home
+						<span class="sr-only">(current)</span>
+					  </a>
+					</li>
+					<li>
+					  <a class="nav-link" href="popInfo.php?visualizza=Progetto">Progetto</a>
+					</li>
+					<li class="nav-item" >
+					  <a class="nav-link" href="popInfo.php?visualizza=Servizi">Servizi</a>
+					</li>
+					<li class="nav-item" >
+					  <a class="nav-link" href="popInfo.php?visualizza=Scopo">Scopo</a>
+					</li>					
+					<li class="nav-item">
+					  <a class="nav-link" href="popInfo.php?visualizza=Contatti">Contatti</a>
+					</li>
+					<li class="nav-item">
+						<div class="icon-circle"> &nbsp; &nbsp; &nbsp; 
+							<a href="https://www.facebook.com/bpmn.bpmn.52" class="ifacebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.linkedin.com/in/bpmn-msl-5625a3161/" class="iLinkedin" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+						</div>					
+					</li>
+		  </ul>
+		</div>		
+		
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Heading Row -->
+      <div class="row my-4">
+        <div class="col-lg-8">
+		 <!-- <img class="img-fluid rounded" src="./img/imgHome2.jpg" alt=""> -->
+			 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img class="d-block w-100" src="./img/imgHome2.png" alt="Il Mulino di Leonardo">
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="./img/imgHome1.png" alt="BPMN Evidence">
+				</div>
+			  </div>
+			</div>
+		<div style="position: absolute; bottom: 80px; left: 30px; color: white;">
+	      <div style="text-shadow: 5px 5px 5px gray; font-family: Times, serif; font-size:40px; font-style: italic;">
+		   Free On-line
+		   <br />
+		   Business Process Modeling Notation
+		  </div>
+	     </div>
+		
+		</div>
+        <!-- /.col-lg-8 --> 
+        <div class="col-lg-4">
+          <h1 style="text-shadow: 3px 3px 3px gray">BPMN 2.0</h1>
+          <div style="font-size:15px;">Piattaforma libera per la modellazione dei processi</div>
+			<form action="auth_login.php" method=post>
+				<input type="hidden" name="pIva" value="11111111111">
+				<input type="hidden" name="username" value="bpmn">
+				<input type="hidden" name="userpass" value="bpmn">
+				<button class="btn btn-primary btn-lg" type="submit">Accedi Senza Registrazione</button>
+			</form>
+            <div class="account-wall" style="padding-top:3px; padding-bottom:2px;">
+				<div style="font-size:15px;">Se sei registrato</div>
+				<form action="auth_login.php" method=post class="form-signin">
+					<input type="text" name="pIva" class="form-control" placeholder="Partita Iva Ente/Impresa" required autofocus>
+					<br />
+					<input type="text" name="username" class="form-control" placeholder="Utente" required>
+					<br />
+					<input type="password" name="userpass" class="form-control" placeholder="Password" required>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+					<label class="checkbox pull-left">
+						<br /><input type="checkbox" value="remember-me">
+						Remember me
+					</label>
+                </form>
+            </div>
+		
+		</div>
+        <!-- /.col-md-4 -->
+      </div>
+      <!-- /.row -->
+
+      <!-- Call to Action Well -->
+      <div class="card text-white bg-secondary my-4 text-center">
+        <div class="card-body">
+          <p class="text-white m-0">
+		  Regitrazione gratuita alla piattaforma per creare gestire e condividere i tuoi BPMN on-line
+		  &nbsp; 
+		    <a class="btn btn-primary btn-lg" href="registrazione.html">Registrati</a>
+		  </p>
+        </div>
+      </div>
+
+      <!-- Content Row -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              Il portale consente di disegnare on-line i BPMN
+              <p class="card-text"><img src="./img/esempio_bpmn.png" width="90%" height="25%" alt=""></p>
+            </div>
+            <div class="card-footer">
+              <a href="javascript:moreInfo('moreInfo1.html');" class="btn btn-primary">Vedi Altro</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              Gestione degli utenti con 3 profili di accesso
+              <br /><br />
+			  <p class="card-text"><img src="./img/esempio_users.png" width="90%" height="100" alt=""></p>
+            </div>
+            <div class="card-footer">
+              <a href="javascript:moreInfo('moreInfo2.html');" class="btn btn-primary">Vedi Altro</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              Gestione e archiviazione dei diagrammi in formato XML
+              <p class="card-text"><img src="./img/esempio_archivio.png" width="90%" height="25%" alt=""></p>
+            </div>
+            <div class="card-footer">
+              <a href="javascript:moreInfo('moreInfo3.html');" class="btn btn-primary">Vedi Altro</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark position-relative">
+      <div class="container">
+        <p class="m-0 text-center text-white">Master in Management del Software Libero - Project Work (Leonardo Dorio - Enrico Fava - Elena Giusta)  &nbsp;  &nbsp; &nbsp; 
+		<a href="popInfo.php?visualizza=noteLegali">Note Legali</a> </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../bootstrap/jquery/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
