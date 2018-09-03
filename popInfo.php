@@ -267,7 +267,7 @@ Se decidi di registrarti, potrai avvalerti dei servizi aggiuntivi finalizzati a:
 		$mail->Debugoutput = 'html';
 		$mail->Host = "smtp.gmail.com";
 		$mail->SMTPAuth = true;
-		$mail->Username = "bpmn.help@gmail.com";
+		$mail->Username = "gruppo@gmail.com";
 		$mail->Password = "---------";
 		$mail->Body = $messaggio;
 		$mail->WordWrap = 50;
@@ -275,7 +275,7 @@ Se decidi di registrarti, potrai avvalerti dei servizi aggiuntivi finalizzati a:
 		$mail->Sender = $mittente; 
 		$mail->setFrom($mittente, $nomeMittente);
 		$mail->addAddress($destinatario, $nomeDestinatario);
-		$mail->addAddress('dorioleo@gmail.com', $nomeDestinatario);
+		$mail->addAddress('secondo.destinatario@gmail.com', $nomeDestinatario);
 		// $mail->addReplyTo('....@.it', 'Rispondi A');
 		$mail->Subject = $oggetto;
 		$mail->msgHTML($messaggio);
