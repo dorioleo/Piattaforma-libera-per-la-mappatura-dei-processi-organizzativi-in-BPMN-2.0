@@ -3,9 +3,9 @@
 <head>
 <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
 <!-- Bootstrap core CSS -->
-<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!-- Custom styles -->
-<link href="../bootstrap/css/small-business.css" rel="stylesheet">
+<link href="./small-business.css" rel="stylesheet">
 	
 <meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
 <title>BPMN Guida</title>
@@ -15,37 +15,37 @@
 <h1 class="western" style="orphans: 2; widows: 2; page-break-after: avoid">Uso del BPMN <a href="http://www.bpmn.org/"><img src="img/bpmnOrg.png" width="50" height="40" border="0" /></a></h1>
 <ul class="list-group">
 <li class="list-group-item active">
-La modellazione dei processi viene utilizzata per comunicare un’elevata quantità d’informazioni a un’ampia platea d’interlocutori. Il BPMN è progettato
-per consentire all’utilizzatore di distinguere facilmente le sezioni di un diagramma BPMN.
-Esistono diverse categorie di sotto-modello all’interno di un modello BPMN chiuso: 
+La modellazione dei processi viene utilizzata per comunicare unâ€™elevata quantitÃ  dâ€™informazioni a unâ€™ampia platea dâ€™interlocutori. Il BPMN Ã¨ progettato
+per consentire allâ€™utilizzatore di distinguere facilmente le sezioni di un diagramma BPMN.
+Esistono diverse categorie di sotto-modello allâ€™interno di un modello BPMN chiuso: 
 </li>
 <li class="list-group-item">
 <strong>-</strong> Processi aziendali privati, sono quelli interni alle organizzazioni, generalmente chiamati, flussi di lavoro a processo. Si suddividono in due categorie,
 eseguibili se sono processi modellati allo scopo di essere eseguiti secondo una semantica definita, non eseguibili se i processi sono modellati allo scopo di documentare
-il comportamento del processo, a un livello di dettaglio definito dal modellatore. In questo caso, le informazioni necessarie all’esecuzione non sono
-in genere incluse. In queste tipologie di processi il flusso sarà contenuto all’interno del pool e non può attraversarne i confini, ad eccezione dei flussi
-di messaggi, quando è necessario, mostrare le interazioni tra processi separati.
+il comportamento del processo, a un livello di dettaglio definito dal modellatore. In questo caso, le informazioni necessarie allâ€™esecuzione non sono
+in genere incluse. In queste tipologie di processi il flusso sarÃ  contenuto allâ€™interno del pool e non puÃ² attraversarne i confini, ad eccezione dei flussi
+di messaggi, quando Ã¨ necessario, mostrare le interazioni tra processi separati.
 <br />
-<strong>-</strong> Processi pubblici, essi rappresentano le interazioni tra processi privati e altri processi o partecipanti. Sono incluse solo le attività di comunicazione con gli
-altri partecipanti, non vengono comunque mostrate le attività appartenenti al processo privato. I processi pubblici possono essere modellati separatamente o
-all’interno di una collaborazione, per mostrare le attività di processo pubblico e gli altri partecipanti.
+<strong>-</strong> Processi pubblici, essi rappresentano le interazioni tra processi privati e altri processi o partecipanti. Sono incluse solo le attivitÃ  di comunicazione con gli
+altri partecipanti, non vengono comunque mostrate le attivitÃ  appartenenti al processo privato. I processi pubblici possono essere modellati separatamente o
+allâ€™interno di una collaborazione, per mostrare le attivitÃ  di processo pubblico e gli altri partecipanti.
 </li>
 <li class="list-group-item">
-<strong>Collaborazioni</strong>, descrive le interazioni tra due o più entità aziendali. Una collaborazione, di solito contiene due o più pool,
-essi rappresentano i partecipanti. Lo scambio di messaggi tra i partecipanti è espresso da un flusso di messaggi che collega due pool, o gli oggetti
-all’interno di esso. Possono anche essere visualizzati i messaggi, associati al loro flusso, la collaborazione può essere anche espressa da due o più processi
-pubblici comunicanti tra loro. Le attività di collaborazione tra i partecipanti, possono essere considerati i punti di contato tra essi, è
-possibile che i processi, abbiano un numero maggiore di attività e dettagli, rispetto a quelle mostrate nei processi pubblici.
+<strong>Collaborazioni</strong>, descrive le interazioni tra due o piÃ¹ entitÃ  aziendali. Una collaborazione, di solito contiene due o piÃ¹ pool,
+essi rappresentano i partecipanti. Lo scambio di messaggi tra i partecipanti Ã¨ espresso da un flusso di messaggi che collega due pool, o gli oggetti
+allâ€™interno di esso. Possono anche essere visualizzati i messaggi, associati al loro flusso, la collaborazione puÃ² essere anche espressa da due o piÃ¹ processi
+pubblici comunicanti tra loro. Le attivitÃ  di collaborazione tra i partecipanti, possono essere considerati i punti di contato tra essi, Ã¨
+possibile che i processi, abbiano un numero maggiore di attivitÃ  e dettagli, rispetto a quelle mostrate nei processi pubblici.
 </li>
 <li class="list-group-item">
 <strong>Conversazione</strong>,
-è un uso particolare di una descrizione formale di un diagramma di collaborazione. I pool di conversazione, solitamente non contengono un processo
-o una coreografia, La conversazione è la relazione logica tra lo scambio di messaggi
+Ã¨ un uso particolare di una descrizione formale di un diagramma di collaborazione. I pool di conversazione, solitamente non contengono un processo
+o una coreografia, La conversazione Ã¨ la relazione logica tra lo scambio di messaggi
 </li>
 <li class="list-group-item">
-<strong>Coreografia</strong>, è la definizione di un comportamento atteso, esistente tra più Pools o partecipanti, è simile a un
-processo aziendale privato, poiché consiste in un insieme di attività. Una coreografia è diversa in quanto coinvolge due o più partecipanti, a differenza di
-un processo normale, non esiste un controllo centrale o un entità responsabile.
+<strong>Coreografia</strong>, Ã¨ la definizione di un comportamento atteso, esistente tra piÃ¹ Pools o partecipanti, Ã¨ simile a un
+processo aziendale privato, poichÃ© consiste in un insieme di attivitÃ . Una coreografia Ã¨ diversa in quanto coinvolge due o piÃ¹ partecipanti, a differenza di
+un processo normale, non esiste un controllo centrale o un entitÃ  responsabile.
 </li>
 </ul>
 
