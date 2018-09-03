@@ -9,7 +9,6 @@ La piattaforma include e adatta uno strumento libero (bpmn-js) di modellazione d
 Si rivolge alla Pubblica amministrazione ma anche alle aziende private che vogliano illustrare i propri processi sia per scopi conoscitivi e applicativi all'intero della propria organizzazione sia per fini comunicativi rivolti all'esterno.
 
 ISTRUZIONI DI INSTALLAZIONE:
-
   . installare il web-server APACHE con PHP v7.0 e character set UTF8 
   . copiare l'intero progetto in una directory (visibile dal'esterno);
   . decomprimere i file compressi archivio.zip, users.zip, img.zip e bower_components.zip;
