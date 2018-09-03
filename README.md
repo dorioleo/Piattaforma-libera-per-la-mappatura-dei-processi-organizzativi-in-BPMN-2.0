@@ -49,11 +49,10 @@ ISTRUZIONI DI INSTALLAZIONE:
 	
     I diagrammi condivisi possono essere cancellati dal creatore del diagramma o possono essere modificati ricaricando con altro nome.
 	
-    Per modificare eventuali informazioni modificare la pagina popInfo.php.
+    Per modificare eventuali informazioni modificare il testo contenuto la pagina popInfo.php.
 	
     La pagina Guida.html contiene una guida sintetica del linguaggio di modellazione BPMN e di utilizzo della piattaforma
 
-    Per modificare eventuali informazioni modificare la pagina popInfo.php.
     La pagina Guida.html contiene una guida sintetica del linguaggio di modellazione BPMN e di utilizzo della piattaforma
     
     
