@@ -12,9 +12,9 @@ ISTRUZIONI DI INSTALLAZIONE:
 
   . installare il web-server APACHE con PHP v7.0 e character set UTF8
   
-  . copiare l'intero progetto in una directory (visibile dal'esterno);
+  . copiare l'intero progetto in una directory (visibile dall'esterno);
   
-  . decomprimere i file compressi archivio.zip, users.zip, img.zip e bower_components.zip;
+  . decomprimere i file compressi archivio.zip, users.zip, img.zip e bower_components.zip (nelle corrispodenti directory);
   
   . modificare gli account di posta per le comunicazioni nel file popInfo.php :
   
@@ -27,6 +27,7 @@ ISTRUZIONI DI INSTALLAZIONE:
   . verificare i permessi di lettura/scrittura dei file: 
       quelli nella directory principale e nelle sotto-directory img e bower_components devono avere i permessi di lettura;
       quelli nelle sotto directory archivio e users devono avere anche il premesso in scrittura da parte dell'utente apache.
+  . configurare il server per evitare l'accesso indisiderato (ad esempio con .htaccess o una pagina di relink index.html nelle sotto directory users e archivio)
   
   ISTRUZIONI DI UTILIZZO:
   
