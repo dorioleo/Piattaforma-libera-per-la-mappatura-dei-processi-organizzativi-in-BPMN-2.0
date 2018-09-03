@@ -54,6 +54,6 @@ ISTRUZIONI DI INSTALLAZIONE:
     Per modificare eventuali informazioni modificare la pagina popInfo.php.
     La pagina Guida.html contiene una guida sintetica del linguaggio di modellazione BPMN e di utilizzo della piattaforma
     
-      
+    
   
 Dott. Leonardo Dorio 
