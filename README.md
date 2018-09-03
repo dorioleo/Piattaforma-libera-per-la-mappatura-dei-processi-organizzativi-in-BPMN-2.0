@@ -14,7 +14,7 @@ ISTRUZIONI DI INSTALLAZIONE:
   
   . copiare l'intero progetto in una directory (visibile dall'esterno);
   
-  . decomprimere i file compressi archivio.zip, users.zip, img.zip e bower_components.zip (nelle corrispodenti directory);
+  . decomprimere i file compressi archivio.zip, users.zip, img.zip e bower_components.zip (nelle corrispondenti directory);
   
   . modificare gli account di posta per le comunicazioni nel file popInfo.php :
   
