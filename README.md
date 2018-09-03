@@ -22,7 +22,7 @@ ISTRUZIONI DI INSTALLAZIONE:
       alla riga 271 inserire la password email della comunicazione (il sistema per l'invio si appoggia al server smtp di google)
       alla riga 278 inserire eventuale indirizzo email che dovrà ricevere le comunicazioni.
 	  
-  . modificare/sostituire le immagini contenute nella cartella img (quelle presenti sono riferite al progetto di UNIUPO);
+  . modificare/sostituire le immagini contenute nella cartella img (quelle presenti sono riferite al progetto originale di UNIUPO);
   
   . verificare i permessi di lettura/scrittura dei file: 
       quelli nella directory principale e nelle sotto-directory img e bower_components devono avere i permessi di lettura;
