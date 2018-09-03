@@ -27,7 +27,8 @@ ISTRUZIONI DI INSTALLAZIONE:
   . verificare i permessi di lettura/scrittura dei file: 
       quelli nella directory principale e nelle sotto-directory img e bower_components devono avere i permessi di lettura;
       quelli nelle sotto directory archivio e users devono avere anche il premesso in scrittura da parte dell'utente apache.
-  . configurare il server per evitare l'accesso indisiderato (ad esempio con .htaccess o una pagina di relink index.html nelle sotto directory users e archivio)
+      
+  . configurare il server apache per evitare l'accesso indesiderato (ad esempio con .htaccess o una pagina di relink index.html)    nelle sotto directory users e archivio
   
   ISTRUZIONI DI UTILIZZO:
   
