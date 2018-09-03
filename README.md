@@ -47,14 +47,13 @@ ISTRUZIONI DI INSTALLAZIONE:
 	  
     L'utente amministratore (di default il primo che fa la registrazione) può creare altri utenti con profilo di accesso uguale o inferiore sola lettura/gestione dei diagrammi.
 	
-    I diagrammi condivisi possono essere cancellati dal creatore del diagramma o possono essere modificati ricaricando con altro nome.
+    I diagrammi condivisi possono essere cancellati dal creatore del diagramma o possono essere modificati ricaricato con altro nome.
 	
     Per modificare eventuali informazioni modificare il testo contenuto la pagina popInfo.php.
 	
     La pagina Guida.html contiene una guida sintetica del linguaggio di modellazione BPMN e di utilizzo della piattaforma
 
-    La pagina Guida.html contiene una guida sintetica del linguaggio di modellazione BPMN e di utilizzo della piattaforma
-    
+     
     
   
 Dott. Leonardo Dorio 
