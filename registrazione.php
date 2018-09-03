@@ -1,6 +1,6 @@
 <?php 
 extract($_POST);
-$myfile = fopen("entity.inc.php", "r") or die("Error open file!");
+$myfile = fopen("./users/entity.inc.php", "r") or die("Error open file!");
 $trovato='';
 while(!feof($myfile)) {
   $riga=fgets($myfile);
@@ -15,7 +15,7 @@ if (empty($trovato)){
 		echo '<script type="text/javascript">confirm("Password diversa");
 			window.location.href="registrazione.html"</script>';
 	}	
-	$fp = fopen('entity.inc.php', 'a');
+	$fp = fopen('./users/entity.inc.php', 'a');
 	$denominazione=str_replace(':','',$denominazione);
 	fputs($fp, "$pIva:$tipoEnte:$denominazione:$codiceFiscaleAmm:$ruoloAmm:$emailAmm\n");
 	fclose($fp);
