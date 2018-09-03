@@ -40,16 +40,16 @@ ISTRUZIONI DI INSTALLAZIONE:
       viene creata una directory in archivio che conterra i diagrammi XML dell'entita;
       nella directory users viene creato un file degli utenti (le password sono registrate in MD5);
 	  
-    Se erroneamente viene registrata un'ente o una società: 
+    Se erroneamente viene registrato un'ente/società: 
       cancellare in users/entity.inc.php la corrispondente riga di dettaglio;
-      cancellare in users il file degli utenti users.partitaIVA.php;
-      cancellare sotto archivio la sotto directory di archiviazione archivio_partitaIVA
+      cancellare in users il file degli utenti users.partitaIVA.php (dove partitaIVA è il numero di partita IVA);
+      cancellare sotto archivio la sotto directory di archiviazione archivio_partitaIVA (dove partitaIVA è il numero di partita IVA).
 	  
-    L'utente amministratore (di default il primo che fa la registrazione) può creare altri utenti con profilo di accesso uguale o inferiore sola lettura/gestione dei diagrammi.
+    L'utente amministratore (di default il primo che fa la registrazione) può creare altri utenti con profilo di accesso uguale o inferiore (sola lettura o gestione dei diagrammi).
 	
     I diagrammi condivisi possono essere cancellati dal creatore del diagramma o possono essere modificati ricaricato con altro nome.
 	
-    Per modificare eventuali informazioni modificare il testo contenuto la pagina popInfo.php.
+    Le informazioni si possono modificare nel testo contenuto nella pagina popInfo.php.
 	
     La pagina Guida.html contiene una guida sintetica del linguaggio di modellazione BPMN e di utilizzo della piattaforma
 
