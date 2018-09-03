@@ -7,11 +7,9 @@
 ?>
 <html>
 <head>
-<!-- jquery -->
-<script type="text/javascript" src="../bootstrap/js/jquery-min.js"></script>
-<!-- bootstrap -->
-<link media="screen" rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-<script src="../bootstrap/js/bootstrap.js"></script>
+<!-- bootstrap personalizzato -->
+<link media="screen" rel="stylesheet" href="./bootstrap.css">
+<script src="./bootstrap.js"></script>
 <!-- css personalizzato -->
 <link rel="stylesheet" href="style.css">
 
